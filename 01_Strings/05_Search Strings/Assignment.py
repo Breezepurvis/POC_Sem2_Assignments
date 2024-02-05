@@ -1,10 +1,9 @@
-text = "" #use input to actually store into text.  remove the ""
+text = input('enter text')
 
 result = text.find("the")
 
-if result == -1:
-    print("The word the is not in the string")
-else:
-    print("The word the is in the string")
-    print("It is located at", )
-    #YOUDO.  print out where the word 'the' appears in the string.  
+if result== -1:
+    print("the word the is not in the string")
+    else:
+        print("the word the is in the string")
+        print(result)
