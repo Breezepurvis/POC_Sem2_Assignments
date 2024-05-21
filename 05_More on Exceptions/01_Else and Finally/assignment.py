@@ -20,3 +20,13 @@ except ZeroDivisionError:
     # YOUDO:  print message stating that division by zero is not possible.
     pass  # YOUDO remove pass when done
 #YOUDO:  else and finally here as well.  
++try:
++     value = int(input(("Enter a number:")
++     value2= int(input(input("Enter another number:")
++    except ValueError:
+ print("An integer was not given, try again.")
+ 
+ try:
+ print(value / value2 )
++ except ZeroDivisionError:
++       print("Division by zero is not possible, sorry.")
